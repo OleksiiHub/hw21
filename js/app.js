@@ -1,8 +1,8 @@
-let firstNumber = +prompt('Введите первое число');
-let secondNumber = +prompt('Введите второе число');
+let firstNumber = prompt('Введите первое число');
+let secondNumber = prompt('Введите второе число');
 if (firstNumber === '' || secondNumber === '') {
     alert('Error')
-}else {
+} else {
     if (secondNumber == 0) {
         alert('Ошибка, второе число равно 0')
     } else {
@@ -14,3 +14,5 @@ if (firstNumber === '' || secondNumber === '') {
         alert(`Результат вычитания ${firstNumber - secondNumber}`)
     }
 }
+
+
